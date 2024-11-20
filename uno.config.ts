@@ -37,7 +37,7 @@ export default defineConfig({
     presetWebFonts({
         provider: 'google',
         fonts: {
-          sans: 'Maven Pro',
+          sans: 'Lato',
           mono: ['Fira Code'],
         },
       },

@@ -15,3 +15,7 @@
       (h2 ([class "text-4xl md:text-5xl font-mono text-thulian"])
           ,title)
       ,@elems))
+
+(define (par . elems)
+  `(p ([class "text-lg my-2"])
+    ,@elems))

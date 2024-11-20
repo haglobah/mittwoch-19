@@ -36,8 +36,7 @@
 	<link rel="stylesheet" href="assets/uno.css">
 	<script src="assets/main.js"></script>
   </head>
-	<body class="antialiased scroll-smooth font-sans 
-  selection:bg-engineering-light selection:text-prussian">
+	<body class="antialiased scroll-smooth font-sans">
 		◊(->html `(div ([class ""])
 									,doc))
 		<footer class="p-6 sm:p-8 md:p-12">
