@@ -1,18 +1,28 @@
 #lang pollen
 
 ◊div[#:class "h-screen flex flex-col justify-center gap-16 bg-sunglow font-mono text-english"]{
-  ◊h1[#:class "text-5xl font-bold text-center"]{
+  ◊h1[#:class "text-5xl md:text-6xl font-bold text-center"]{
     Lust auf:
   }
-  ◊ul[#:class "mx-8 flex flex-col gap-4 text-center"]{
-    ◊li[#:class "text-3xl font-bold"]{
+  ◊div[#:class "mx-8 flex flex-col gap-4"]{
+    ◊braced[#:href "#projekte"]{
       gemeinsam an Projekten arbeiten
     }
-    ◊li[#:class "text-3xl font-bold"]{
+    ◊braced[#:href "#lernen"]{
       Lernen
     }
-    ◊li[#:class "text-3xl font-bold"]{
+    ◊braced[#:href "#spass"]{
       Spaß
     }
   }
+}
+
+◊sec[#:title "Projekte"]{
+  
+}
+◊sec[#:title "Lernen"]{
+
+}
+◊sec[#:title "Spaß"]{
+
 }
